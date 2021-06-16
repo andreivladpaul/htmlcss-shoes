@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* common  */
+.scarpe {
+  width: 100%;
+  height: 100vh;
+}
+
+body {
+  font-family: 'Rubik Mono One', sans-serif;
+}
+
+.section-buttons {
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.section-buttons span {
+  background-color: white;
+  display: inline-block;
+  border-radius: 50%;
+  padding: 7px 10px;
+  margin: 10px;
+  text-align: center;
+  vertical-align: center;
+}
+
+.section-buttons a {
+  text-decoration: none;
+  color: black;
+}
+
+/* <scarpa 1  */
+#scarpa-1 {
+  background-color: red;
+}
+
+#scarpa-2 {
+  background-color: green;
+}
+
+#scarpa-3 {
+  background-color: yellow;
+}
